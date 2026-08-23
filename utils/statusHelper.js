@@ -5,4 +5,4 @@ const getAssignmentStatus = (dueDate) => {
     return now > due ? "closed" : "active";
 };
 
-module.exports = { getAssignmentStatus };
+ module.exports = { getAssignmentStatus };
